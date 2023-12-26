@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>团队成员及分工</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        .site-section {
+            padding: 50px 0;
+        }
+
+        .section-title {
+            color: #0066cc;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .col-lg-4 {
+            flex: 0 0 calc(33.333% - 20px);
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .member-info {
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .member-info h3 {
+            color: #0066cc;
+        }
+
+        .member-info p {
+            margin: 5px 0;
+        }
+
+        .col-lg-4 img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="site-section" id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4 position-relative">
+                    <h2 class="section-title">About Us</h2>
+                </div>
+                <div class="row"> <!-- 新添加的行元素 -->
+                    <div class="col-lg-4">
+                        <div class="member-info">
+                            <h3>闫硕</h3>
+                            <p>Email: yanlaoji@qq.com</p>
+                            <p>想法提出  原型设计</p>
+                            <p>网站搭建  问卷调研</p>
+                        </div>
+                        <div class="member-info">
+                            <h3>陈妍</h3>
+                            <p>Email: 2093362371@qq.com</p>
+                            <p>问卷整理  文档汇报</p>
+                            <p>海报制作  视频制作</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="path/to/your/image.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="member-info">
+                            <h3>白伊涵</h3>
+                            <p>Email: 3548770951@qq.com</p>
+                            <p>问卷调研  低保真原型制作</p>
+                            <p>UI设计   高保真原型制作</p>
+                        </div>
+                        <div class="member-info">
+                            <h3>朱丽雪</h3>
+                            <p>Email: 605948736@qq.com</p>
+                            <p>文档汇报  低保真原型制作</p>
+                            <p>UI设计  高保真原型制作</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
